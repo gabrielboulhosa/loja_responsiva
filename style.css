@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: blue;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+    padding: 16px 0;
+    color: white;
+}
+
+header h1 {
+    width: 150px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+}
+
+
+header ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.sobre-texto {
+    margin-top: 16px;
+}
+
+.sobre-cont {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+}
+
+.sobre-img {
+    margin-top: 32px;
+}
+
+.sobre-img img {
+    width: 100%;
+}
+
+.sobre-texto h2,
+.produtos-title h2 {
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(61, 61, 230);
+    font-weight: bold;
+    color: rgb(61, 61, 230);
+}
+
+.produtos-title h2 {
+    margin-left: 16px;
+}
+
+
+
+.sobre-texto p {
+    margin-top: 32px;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
+
+#produtos .container {
+    margin-top: 30px;
+}
+
+.secao-produtos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+}
+
+.produtos  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.produtos img {
+    width: 100%;
+}
+
+.produtos-texto .secao-produtos-title {
+    font-size: 25px;
+}
+
+.produtos-texto p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    margin-bottom: 5px;
+}
+
+.produtos button {
+    width: 100%;
+    padding: 8px 0;
+    background-color: rgb(61, 61, 230);
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    margin-top: 8px;
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    header h1 {
+    width: 200px;
+    font-weight: bold;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+    padding: 16px 16px;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+
+header ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.sobre-cont {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 40% 57%;
+    column-gap: 3%;
+}
+.sobre-texto p {
+    margin-top: 16px;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
+
+.secao-produtos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    column-gap: 2%;
+}
+.produtos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.produtos img {
+    width: 100%;
+}
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+ header h1 {
+    width: 200px;
+    font-weight: bold;
+    
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+    padding: 16px 16px;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+
+header ul li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.sobre-cont {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 40% 57%;
+    column-gap: 3%;
+}
+
+.produtos-title h2 {
+    margin-left: 0;
+}
+
+.produtos-texto .secao-produtos-title {
+    font-size: 22px;
+}
+
+.sobre-texto p {
+    margin-top: 16px;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 30px;
+}
+
+.secao-produtos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 24.5%);
+    column-gap: 1%;
+    margin-top: 30px;
+}
+.produtos {
+    margin-top: 0px;
+    
+}
+
+.produtos img {
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
